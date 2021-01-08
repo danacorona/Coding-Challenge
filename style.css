@@ -1,0 +1,41 @@
+/* For Full Page */
+* {
+    background-color: lightslategrey;
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+/* Element Selectors */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: mediumaquamarine;
+    padding: 15px;
+    font-weight: normal;
+}
+
+/* Class Selectors */
+.btn {
+    background-color: lightseagreen;
+    color: white;
+    font-weight: bolder;
+    border: 2px solid darkslategray;
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 15px;
+    margin: 5px;
+}
+
+.hide {
+    display: none;
+}
+
+/* ID Selectors */
+#question {
+    margin: 10px;
+}
